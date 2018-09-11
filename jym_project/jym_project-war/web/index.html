@@ -1,23 +1,71 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
-		<title>Minimum Setup</title>
+
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="bower_components/bootstrap-calendar/css/calendar.css">
 	</head>
 	<body>
+        <div id="recentClasses">
+            
+            <div id="selectTimeBar">
+                <div id="startTime"></div>
+                <div id="endTime"></div>
+                <div id="okButton"></div>
+            </div>
+            
+            <div id="addClass">
+                <div id ="startTime"></div>
+                <div id ="customerName"></div>
+                <div id ="addButton"></div>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                       <div id="time">
+                           1
+                       </div>
+                
+                       <div id="customerName">
+                           2
+                       </div>
+                
+                       <div id="place">
+                           3
+                       </div>
+                
+                       <div id="state">
+                           4
+                       </div>
+                
+                       <div id="conform">
+                           5
+                       </div>
+                
+                       <div id="cancel">
+                           6
+                       </div>
+                </li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Morbi leo risus</li>
+                  <li class="list-group-item">Porta ac consectetur ac</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div id="classesList">
+                
 
-		<div id="calendar"></div>
+                    
+                <div id="sumClassesNumber">
+                    12
+                </div>
+            </div>
+            
+
+        </div>    
+
 
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 		<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
 		<script type="text/javascript" src="bower_components/bootstrap-calendar/js/calendar.js"></script>
-		<script type="text/javascript">	
-                    		    var calendar = $("#calendar").calendar(
-				{
-					tmpl_path: "bower_components/bootstrap-calendar/tmpls/",
-					events_source: function () { return []; }
-				});
-		</script>
+		<script type="text/javascript"></script>
 	</body>
 	</html>
