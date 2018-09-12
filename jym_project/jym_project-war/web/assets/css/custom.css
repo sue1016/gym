@@ -280,12 +280,15 @@
     display: inline-block;
     width: 100%;
     padding-left: 0px;
+    
 }
 .page-wrapper .page-content > div {
     padding: 20px 40px;
+   
 }
 .page-wrapper .page-content {
     overflow-x: hidden;
+    
 }
 /*---------------------toggle-sidebar button-------------------------*/
 #toggle-sidebar{
